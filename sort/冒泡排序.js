@@ -18,7 +18,7 @@ function bubbleSort(nums) {
 }
 /**
  * 冒泡排序优化
- * 以上可以知道，在经过比较后，数组后面的书是有序的了，不需要再进行遍历（减少遍历次数）
+ * 以上可以知道，在经过比较后，数组后面的数是有序的了，不需要再进行遍历（减少遍历次数）
  */
 function betterBubbleSort(nums) {
   const len = nums.length
